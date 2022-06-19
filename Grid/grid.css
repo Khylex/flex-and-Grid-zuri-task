@@ -17,11 +17,16 @@ body {
 }
 
 .wrapper {
-  width: 80%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(90px, 30px);
+}
+.nested{
+  width: 80%;
+  padding: 5rem;
+  background-color: rgb(18, 18, 247);
 }
 .one {
   grid-column: 1 /5;
@@ -41,10 +46,10 @@ body {
 .four {
   grid-column: 4/8;
   grid-row: 4/6;
-  background-color: lightblue;
+  background-color: rgb(33, 145, 182);
 }
 .five {
   grid-column: 4/8;
   grid-row: 6/8;
-  background-color: lightblue;
+  background-color: rgb(33, 145, 182);
 }
