@@ -26,7 +26,7 @@ body {
 .nested{
   width: 80%;
   padding: 5rem;
-  background-color: rgb(18, 18, 247);
+  background-color: rgb(17, 12, 54);
 }
 .one {
   grid-column: 1 /5;
